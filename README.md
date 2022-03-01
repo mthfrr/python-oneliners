@@ -15,7 +15,7 @@ my_func = lambda param1, param2: print(param1, param2)
 The probleme is that only one statement can be executed in a `lamdba` and its
 result will be returned. Since Python 3.8 you cannot use `yield` in `lambdas`
 
-That's why to accomplish complexe task, a few tricks are used.
+That's why to accomplish complexe tasks, a few tricks are used.
 
 ```py
 # ternary operator
@@ -33,7 +33,7 @@ def sum(a, b):
 sum(*[5, 6]) # sum(5, 6)
 ```
 
-Be careful, all of these functions do not actualy return a list.
+Be careful, `map`, `filter`, `[x for x in l]` and many more do not actualy return a list.
 They create generators.
 
 ## Recursion
